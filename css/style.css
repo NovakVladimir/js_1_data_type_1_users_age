@@ -1,0 +1,38 @@
+body {
+    width: 98%;
+    height: 98vh;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(220,240,250,0.7);
+}
+
+h1 {
+    margin: 0 auto;
+    color: #222222;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+p {
+    color: #f31835;
+    font-size: 80px;
+    font-weight: 600; 
+}
+
+form {
+    position: relative;
+}
+
+input[type="text"] {
+    font-size: 60px;
+    width: 15vw;
+    text-align: center;
+    color: #222222;
+}
+
+input[type="button"] {
+    font-size: 60px;
+    right: 0;
+    color: #222222;
+}
